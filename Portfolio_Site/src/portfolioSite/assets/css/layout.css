@@ -1,0 +1,80 @@
+/*--- NAVBAR ---*/
+
+
+/*----------JUMBOTRON----------*/
+.jumbotron {
+    padding-top: 0;
+    padding-left: 0;
+}
+.landing-view {
+
+    background-image: url('/static/images/laptop-in-empty-room.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.top {
+    padding-left: 12px;
+    margin-top: 0%;
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 5.5em;
+}
+
+.jumbotron p {
+    font-size: 2em;
+}
+
+.short-line {
+    width: 40%;
+    position: absolute;
+    left: 20px;
+    top: 225px;
+}
+
+.aboutMe {
+    padding-bottom: 20px;
+}
+.spacing {
+    word-spacing: 7px;
+}
+/*--- Coffee Image ---*/
+.image-size {
+    height: 40px;
+    width: 40px;
+}
+/*--- SOCIAL LINKS ---*/
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 15px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out, ;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+/*--- Footer ---*/
+.footer {
+    padding-top: 5px;
+    color: white;
+}
