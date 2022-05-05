@@ -1,0 +1,56 @@
+body {
+    background-color: #EAF6F6;
+    padding: 3% 6%;
+  }
+
+  h1, h2, h3 {
+      color: #404040;
+  }
+  h3 {
+      font-size: 24px;
+  }
+  h4 {
+      font-size: 20px;
+  }
+  p {
+      font-size: 18px;
+  }
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    height: 0px;
+    width: 30%;
+  }
+ li {
+     font-size: 18px;
+ }
+  .portfolio-image {
+    height: 300px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    body {
+          text-align: center;
+      }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    } 
+    li {
+        font-size: 14px;
+        text-align: left;
+    }
+    .portfolio-image {
+        height: 200px;
+      }
+    .skill-section {
+        text-align: left;
+    }
+  }
